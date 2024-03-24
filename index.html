@@ -12,15 +12,15 @@
 <body>
     <div class="app"> 
     <header>
-        <form class="search-form">
-            <input type="search"  placeholder="Enter a City..." required class="search-form-input"/>
+        <form class="search-form" id="search-form">
+            <input type="search"  placeholder="Enter a City..." required id="search-form-input" class="search-form-input"/>
             <input type="submit" value="Search" class="search-form-button"/>
         </form>
     </header>
     <main>
         <div class="weather-app-data">
         <div>
-    <h1 class="city">Rzeszów</h1>
+    <h1 class="city" id="city">Rzeszów</h1>
     <p class="details">
         Friday 17:48, rainy
         <br />
@@ -42,5 +42,6 @@
         <a href="https://pogodaweatherapp.netlify.app" target="_blank">Netlify </a>
     </footer>
 </div> 
+<script src="src/index.js"></script>
 </body>
 </html>
