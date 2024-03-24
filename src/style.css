@@ -58,7 +58,7 @@ main {
 }
 
 .details {
-    font-size: 21px;
+    font-size: 16px;
     color: whitesmoke ; 
     line-height: 20px;
 
@@ -78,8 +78,8 @@ main {
 }
 
 .icon {
-    font-size: 33px;
-    margin-top: 22px; 
+    width: 88px;
+    height: 88px;
 }
 
 .unit {
