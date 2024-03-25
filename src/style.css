@@ -95,3 +95,27 @@ footer {
     font-size: 13px;
     font-weight: 500;
 }
+
+.forecast {
+    margin-top: 20px; 
+    margin-left: 10px; 
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 16px;
+    color: black; 
+    opacity: 0.6;
+}
+
+img {
+    margin-bottom: 10px; 
+}
+.forecast-temperature {
+    font-size: 13px;
+    margin-top: 7px; 
+}
+
+.min {
+    opacity: 0.6;
+}
