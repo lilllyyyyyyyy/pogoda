@@ -98,22 +98,30 @@ footer {
 
 .forecast {
     margin-top: 20px; 
-    margin-left: 10px; 
     margin-bottom: 10px;
+    display: flex; 
 }
 
 .date {
     font-size: 16px;
     color: black; 
     opacity: 0.6;
+    margin-right: 80px;
+    margin-left: 20px;
 }
 
 img {
     margin-bottom: 10px; 
+    margin-right: 80px;
+    margin-left: 20px;
 }
 .forecast-temperature {
     font-size: 13px;
     margin-top: 7px; 
+}
+
+.max{
+    margin-left: 20px; 
 }
 
 .min {

@@ -1,3 +1,28 @@
+function displayForecast () {
+    let forecast = document.querySelector("#forecast"); 
+
+    let days = ["Mon", "Tue", "Wed", "Thu", "Fri"]; 
+    let forecastHtml = ""; 
+
+    days.forEach(function(day) {
+    forecastHtml = forecastHtml + `
+    <div class="row">
+        <div class="col-2"> 
+            <div class="date"> ${day} </div>
+                <br />
+                    <img src="https://cdn-icons-png.freepik.com/512/3937/3937493.png" width="30px" />
+                       <div class="forecast-temperature">
+                          <span class="max">18°</span> 
+                        <span class="min">12°</span> 
+                    </div>
+                </div>
+            </div>
+            `; 
+        })
+
+        forecast.innerHTML = forecastHtml; 
+    }
+
 function refreshWeather(response) {
     let temperatureElement = document.querySelector("#temperature");
     let temperature =  response.data.temperature.current; 
@@ -56,3 +81,4 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", searchCity);
 
 findCity("Rzeszów");
+displayForecast(); 
